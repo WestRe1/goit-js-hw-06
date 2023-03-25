@@ -12,3 +12,10 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
+
+
+const container = document.querySelector('.gallery');
+
+const marcup = images.map(({ imag, name }) => {
+  const li =  
+});
