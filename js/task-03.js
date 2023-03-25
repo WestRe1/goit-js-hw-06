@@ -16,6 +16,11 @@ const images = [
 
 const container = document.querySelector('.gallery');
 
-const marcup = images.map(({ imag, name }) => {
-  const li =  
-});
+const marcup = images.map(
+  ({ url, alt }) => `
+  <li class="gallery_item">
+<img src="${url}" alt="${alt}" width="300px" height="168px">
+  </li>`
+).join('');
+console.log(marcup)
+container.insertAdjacentHTML('beforeend', marcup);

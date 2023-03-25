@@ -23,5 +23,8 @@ button {
   cursor: pointer;
 }
 .gallery {
-  
+  display: flex;
+  padding-left: 0;
+  gap: 30px;
+  list-style: none;
 }
